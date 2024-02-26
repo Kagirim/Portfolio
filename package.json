@@ -1,0 +1,16 @@
+{
+  "name": "kagirim",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "node-static": "^0.7.11",
+    "serve-index": "^1.9.1"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
