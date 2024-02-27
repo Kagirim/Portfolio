@@ -1282,7 +1282,7 @@ input[type="text"] {
   margin: 0px !important;
 }
 
-/* .fh5co-loader {
+.fh5co-loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -1290,7 +1290,7 @@ input[type="text"] {
   height: 100%;
   z-index: 9999;
   background: url(/static/media/images/loader.gif) center no-repeat #fff;
-} */
+}
 
 /* .js .animate-box {
   opacity: 0;

@@ -1,11 +1,10 @@
 import { Octokit, App } from "https://esm.sh/octokit?dts";
 
-// const octokit = new Octokit({
-//     auth: "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"
-//   })
+const AUTH_TOKEN = process.env.GIT_TOKEN;
+const octokit = new Octokit({
+    auth: AUTH_TOKEN,
+})
 
-
-  
 const result = await octokit.request('GET /user/repos', {
     headers: {
         'X-GitHub-Api-Version': '2022-11-28'
