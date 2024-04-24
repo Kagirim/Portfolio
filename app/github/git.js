@@ -1,15 +1,9 @@
 import { Octokit, App } from "https://esm.sh/octokit?dts";
 
 const AUTH_TOKEN = process.env.GIT_TOKEN;
-const octokit = new Octokit({
-    auth: AUTH_TOKEN,
-})
+const octokit = new Octokit({ auth: AUTH_TOKEN, })
 
-const result = await octokit.request('GET /user/repos', {
-    headers: {
-        'X-GitHub-Api-Version': '2022-11-28'
-    }
-})
+const result = await octokit.request('GET /user/repos', { headers: { 'X-GitHub-Api-Version': '2022-11-28' } })
 
 const repoNames = [
     'bajeti', 
@@ -26,7 +20,6 @@ const repoNames = [
 
 async function fetchRepos() {
     try{
-
         result.data.forEach(repo => {
             const repoCard = `
             <div class="card card-cascade narrower col-md-3 text-center col-padding animate-box">
@@ -82,10 +75,7 @@ fetchRepos();
 //                     <div class="card-footer text-muted">Last updated: ${new Date(repo.updated_at).toDateString()}</div>
 //                 </div>
 //             `
-//             document.getElementById("git-repos").insertAdjacentHTML(
-//                 'beforeend', 
-//                 repoCard
-//             );
+//             document.getElementById("git-repos").insertAdjacentHTML( 'beforeend', repoCard );
             
 //         }
 //     }
