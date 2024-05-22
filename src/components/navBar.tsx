@@ -1,13 +1,13 @@
+import whiteLogo from '../img/logo-white.png'
+
 const NavBar = () => {
     return (
         // nav bar
-        <nav className="relative container mx-auto p-6">
-            <div className="flex items-center justify-between">
-                <div className="pt-2">
-                    <img src="" alt="Logo"/>
-                </div>
+        <nav className="relative container mx-auto p-3">
+            <div className="flex items-center justify-center">
+                {/* <img className='max-h-12 max-w-12' src={whiteLogo} alt="Logo"/> */}
 
-                <div className="hidden md:flex space-x-6">
+                <div className="hidden md:flex space-x-6 pr-8 text-darkBlue font-mono">
                     <a href="#" className="hover:text-navyBlue">Skills</a>
                     <a href="#" className="hover:text-navyBlue">Projects</a>
                     <a href="#" className="hover:text-navyBlue">Experience</a>
@@ -15,7 +15,7 @@ const NavBar = () => {
                     <a href="#" className="hover:text-navyBlue">Contact</a>
                 </div>
 
-                <div className="a bg-darkBlue px-8 py-2 text-white rounded hover:brightness-200 transition duration-200 ease-in-out">Get CV</div>
+                <a className="bg-darkBlue px-8 py-1 my-2 text-white rounded hover:brightness-200 transition duration-200 ease-in-out">Get CV</a>
             </div>
         </nav>
     )
