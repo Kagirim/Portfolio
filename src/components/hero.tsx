@@ -6,11 +6,10 @@ const Hero = () => {
       <div className="container flex flex-col items-center content-center justify-center text-center text-darkBlue mx-auto h-screen">
         <img className="max-w-64 max-h-64 mt-0 bg-lightGold rounded-bl-lg" src={portrait} alt="potrait"/>
 
-        <h1 className="py-8 max-w-md text-6xl font-bold text-center md:text-5xl md:text-left text-darkBlue 
+        <h1 className="py-8 max-w-md sm:text-3xl text-6xl font-bold text-center md:text-5xl md:text-left text-darkBlue 
             relative w-[max-content] font-mono before:absolute before:inset-0 before:animate-typewriter 
             before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-darkBlue">
-          {" "}
-          Kagiri Morris
+          Kagiri M.
         </h1>
 
         <div className="text-center mb-8 max-w-sm text-darkBlue font-mono">
