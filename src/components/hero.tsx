@@ -8,9 +8,7 @@ const Hero = () => {
 
         <h1 className="py-8 max-w-md sm:text-3xl text-6xl font-bold text-center md:text-5xl md:text-left text-darkBlue 
             relative w-[max-content] font-mono before:absolute before:inset-0 before:animate-typewriter 
-            before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-darkBlue">
-          Kagiri M.
-        </h1>
+            before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-darkBlue">Kagiri M.</h1>
 
         <div className="text-center mb-8 max-w-sm text-darkBlue font-mono">
           A software developer with a love for dynamic solutions

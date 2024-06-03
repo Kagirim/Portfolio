@@ -5,7 +5,7 @@ export default function Skills() {
                 relative block p-12 max-w-[800px] w-[70%] mx-auto text-[17px] leading-[28px] -rotate-1 shadow-[3px_15px_8px_-10px_rgba(0,0,0,0.3)] 
                 transition-all duration-150 ease-in hover:rotate-1 hover:-translate-y-2.5">
                     <p className="flex flex-wrap font-mono font-bold text-center mb-8 justify-center text-darkBlue">
-                        My skills
+                        Tech Stack
                     </p>
                     <div className="flex flex-wrap -m-4 text-center">
                         
