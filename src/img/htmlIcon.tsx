@@ -1,7 +1,7 @@
 export const HtmlIcon = ({
     height = "32px",
     width = "32px",
-    color = "#005580",
+    color = "#FC600A",
     secondaryColor,
     ...props
 }: React.SVGProps<SVGSVGElement> & { secondaryColor?: string } ) => (

@@ -7,6 +7,11 @@ import { BackendIcon } from "./img/backendIcon"
 import { BlockchainIcon } from "./img/blockchainIcon"
 import { HtmlIcon } from "./img/htmlIcon"
 import Categories from "./components/categories";
+import { GitIcon } from "./img/gitIcon";
+import { StarIcon } from "./img/starIcon";
+import { LinkIcon } from "./img/linkIcon";
+
+
 
 function App() {
   return (
@@ -15,11 +20,6 @@ function App() {
       <Hero />
       
       <Categories categories={[
-        {
-          name: "API",
-          description: "I design and implement secure and efficient APIs that facilitate seamless communication between different components of your application",
-          icon: <ApiIcon />
-        },
         {
           name: "Backend",
           description: "I craft robust Python, Golang, and Django backend solutions tailored to your needs. From database design to API development, I ensure seamless functionality and high performance.",
@@ -32,12 +32,41 @@ function App() {
         },
         {
           name: "HTML",
-          description: "I create responsive and accessible websites using HTML, CSS, and JavaScript. I ensure that your website is user-friendly and visually appealing.",
+          description: "I create responsive and accessible websites with React, JavaScript, Tailwindcss, and Bootstrap. I ensure that your website is user-friendly and visually appealing.",
           icon: <HtmlIcon />
         }
       ]} />
+      
+      <Projects projects={[
+        {
+          title: "Project 1",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
+          tags: ["Python", "Django", "API"],
+          link: "https://github.com",
+          linkIcon: <LinkIcon />,
+          starIcon: <StarIcon />,
+          gitIcon: <GitIcon />
+        },
+        {
+          title: "Project 2",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
+          tags: ["React", "JavaScript", "HTML"],
+          link: "https://github.com",
+          linkIcon: <LinkIcon />,
+          starIcon: <StarIcon />,
+          gitIcon: <GitIcon />
+        },
+        {
+          title: "Project 3",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
+          tags: ["Solidity", "Ethereum", "Blockchain"],
+          link: "https://github.com",
+          linkIcon: <LinkIcon />,
+          starIcon: <StarIcon />,
+          gitIcon: <GitIcon />
+        }
+      ]} />
       <Skills />
-      <Projects />
     </>
   );
 }

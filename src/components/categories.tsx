@@ -3,21 +3,22 @@ import CategoryCard from "../partials/categoryCard"
 
 export default function Categories({ categories }: { categories: any[] }) {
     return (
-        <section className="h-screen bg-gray-100">
-            <div className="font-mono font-bold">
-                <span className="text-darkBlue my-3 pt-5 flex items-center justify-center font-medium uppercase tracking-wider">
+        <div className="h-screen container px-4 md:px-12 py-12 mx-auto">
+            <section className="font-mono font-bold">
+                <span className="text-darkBlue pt-0 mt-0 pb-5 text-2xl flex items-center justify-center uppercase tracking-wider">
                     My Services
                 </span>
-                <p className="mx-auto mb-12 w-full max-w-xl bg-transparent text-center font-bold leading-relaxed tracking-wide text-darkBlue">
-                    I offer a range of services to help you build and maintain your web applications.
-                </p>
-            </div>
+                {/* <p className="mx-auto my-12 max-w-xl bg-transparent text-center text-3xl font-bold leading-relaxed tracking-wide text-darkBlue">
+                    I offer a range of services to build and maintain your web applications.
+                </p> */}
+            </section>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-3">
+            <section className="grid grid-cols-1 gap-8 lg:grid-cols-3 border rounded-lg shadow p-4 md:p-6 text-center">
+                
                 { categories.map((category) => (
                     <CategoryCard category={category} />
                 ))}
-            </div>
-        </section>
+            </section>
+        </div>
     )
 }

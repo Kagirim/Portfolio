@@ -3,11 +3,11 @@ import whiteLogo from "../img/logo-white.png";
 const NavBar = () => {
   return (
     // nav bar
-    <nav className="relative container mx-auto p-3">
+    <nav className="relative container mx-auto p-3 pt-8">
       <div className="flex items-center justify-center">
         {/* <img className='max-h-12 max-w-12' src={whiteLogo} alt="Logo"/> */}
 
-        <div className="hidden md:flex space-x-6 pr-8 text-darkBlue font-mono">
+        <div className="hidden md:flex space-x-12 pr-8 text-darkBlue font-mono">
           <a href="#" className="hover:text-navyBlue">
             Skills
           </a>
