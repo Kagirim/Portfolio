@@ -22,17 +22,17 @@ function App() {
       <Categories categories={[
         {
           name: "Backend",
-          description: "From database design to API development, I ensure seamless functionality and high performance.",
+          description: "I ensure seamless functionality and high performance on SaaS & APIs.",
           icon: <BackendIcon />
         },
         {
           name: "Blockchain",
-          description: "I develop decentralized applications (dApps) and smart contracts on the Ethereum blockchain using Solidity.",
+          description: "I develop decentralized applications on the Ethereum/sui blockchain using solidity and move.",
           icon: <BlockchainIcon />
         },
         {
           name: "HTML",
-          description: "I create responsive and accessible websites with React, JavaScript, Tailwindcss, and Bootstrap.",
+          description: "I build responsive and accessible websites with React, JavaScript, Tailwindcss, and Bootstrap.",
           icon: <HtmlIcon />
         }
       ]} />
