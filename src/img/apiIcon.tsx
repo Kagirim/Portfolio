@@ -3,7 +3,7 @@ import React from "react";
 export const ApiIcon = ({
     height = "32px",
     width = "32ppx",
-    color = "#FC600A",
+    color = "#005580",
     secondaryColor,
     ...props
 }: React.SVGProps<SVGSVGElement> & { secondaryColor?: string }) => (

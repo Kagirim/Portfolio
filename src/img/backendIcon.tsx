@@ -2,7 +2,7 @@
 export const BackendIcon = ({
     height = "32px",
     width = "32px",
-    color = "#FC600A",
+    color = "#005580",
     secondaryColor,
     ...props
 }: React.SVGProps<SVGSVGElement> & {secondaryColor?: string}) => (

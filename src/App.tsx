@@ -7,7 +7,7 @@ import { BackendIcon } from "./img/backendIcon"
 import { BlockchainIcon } from "./img/blockchainIcon"
 import { HtmlIcon } from "./img/htmlIcon"
 import Categories from "./components/categories";
-import { GitIcon } from "./img/gitIcon";
+import { ForkIcon } from "./img/forkIcon";
 import { StarIcon } from "./img/starIcon";
 import { LinkIcon } from "./img/linkIcon";
 
@@ -22,48 +22,45 @@ function App() {
       <Categories categories={[
         {
           name: "Backend",
-          description: "I craft robust Python, Golang, and Django backend solutions tailored to your needs. From database design to API development, I ensure seamless functionality and high performance.",
+          description: "From database design to API development, I ensure seamless functionality and high performance.",
           icon: <BackendIcon />
         },
         {
           name: "Blockchain",
-          description: "I develop decentralized applications (dApps) and smart contracts on the Ethereum blockchain using Solidity. I also provide consultation on blockchain technology and its applications.",
+          description: "I develop decentralized applications (dApps) and smart contracts on the Ethereum blockchain using Solidity.",
           icon: <BlockchainIcon />
         },
         {
           name: "HTML",
-          description: "I create responsive and accessible websites with React, JavaScript, Tailwindcss, and Bootstrap. I ensure that your website is user-friendly and visually appealing.",
+          description: "I create responsive and accessible websites with React, JavaScript, Tailwindcss, and Bootstrap.",
           icon: <HtmlIcon />
         }
       ]} />
       
       <Projects projects={[
         {
-          title: "Project 1",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
-          tags: ["Python", "Django", "API"],
-          link: "https://github.com",
-          linkIcon: <LinkIcon />,
+          title: "WhatsApp Weave",
+          description: "WhatsAppWeave is a powerful Node.js application designed to automate the management of WhatsApp through retrieval and saving data.",
+          tags: ["Typescript", "NodeJs", "WhatsApp API"],
+          link: "https://github.com/Kagirim/WhatsAppWeave/stargazers",
           starIcon: <StarIcon />,
-          gitIcon: <GitIcon />
+          gitIcon: <ForkIcon />
         },
         {
-          title: "Project 2",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
-          tags: ["React", "JavaScript", "HTML"],
-          link: "https://github.com",
-          linkIcon: <LinkIcon />,
+          title: "Thaka Secrets",
+          description: "A web based cosmetics eCommerce site",
+          tags: ["Django", "JavaScript", "HTML"],
+          link: "https://github.com/Kagirim/thaka-secrets",
           starIcon: <StarIcon />,
-          gitIcon: <GitIcon />
+          gitIcon: <ForkIcon />
         },
         {
-          title: "Project 3",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
-          tags: ["Solidity", "Ethereum", "Blockchain"],
-          link: "https://github.com",
-          linkIcon: <LinkIcon />,
+          title: "Over Network Dapp",
+          description: "A move module for a decentralized social media platform. The platform allows users to create and manage accounts, follow other accounts, and post, comment, and like content. Account ownership is handled through NFTs.",
+          tags: ["Move", "Sui", "Blockchain"],
+          link: "https://github.com/Kagirim/over-network-nft/stargazers",
           starIcon: <StarIcon />,
-          gitIcon: <GitIcon />
+          gitIcon: <ForkIcon />
         }
       ]} />
       <Skills />

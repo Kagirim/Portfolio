@@ -3,7 +3,7 @@ import CategoryCard from "../partials/categoryCard"
 
 export default function Categories({ categories }: { categories: any[] }) {
     return (
-        <div className="h-screen container px-4 md:px-12 py-12 mx-auto">
+        <div className="container px-4 md:px-12 p-12 mx-auto">
             <section className="font-mono font-bold">
                 <span className="text-darkBlue pt-0 mt-0 pb-5 text-2xl flex items-center justify-center uppercase tracking-wider">
                     My Services
