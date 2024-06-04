@@ -8,8 +8,8 @@ export const ApiIcon = ({
     ...props
 }: React.SVGProps<SVGSVGElement> & { secondaryColor?: string }) => (
     <svg fill={ secondaryColor || color } height={height} width={width} version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 380" xmlSpace="preserve">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        {/* <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g> */}
         <g id="SVGRepo_iconCarrier"> 
             <g> 
                 <path d="M91.425,157.435c-1.065-2.297-3.366-3.767-5.897-3.767c-0.005,0-0.01,0-0.015,0c-2.537,0.006-4.839,1.487-5.895,3.794 L47.402,227.83c-1.494,3.264-0.06,7.122,3.204,8.616c0.877,0.401,1.797,0.591,2.702,0.591c2.464,0,4.821-1.409,5.914-3.796 l8.08-17.649h36.75l8.193,17.677c1.51,3.257,5.373,4.674,8.631,3.164c3.257-1.51,4.673-5.374,3.164-8.631L91.425,157.435z M73.254,202.592l12.311-26.888l12.462,26.888H73.254z"></path> 

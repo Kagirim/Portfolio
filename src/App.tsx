@@ -10,7 +10,11 @@ import Categories from "./components/categories";
 import { ForkIcon } from "./img/forkIcon";
 import { StarIcon } from "./img/starIcon";
 import { LinkIcon } from "./img/linkIcon";
-
+import Blog from "./components/blog";
+import Divider from "./partials/divider";
+import Footer from "./components/footer";
+import { Love }from "./img/loveEmoji"
+import Contact from "./components/contact";
 
 
 function App() {
@@ -18,6 +22,7 @@ function App() {
     <>
       <NavBar />
       <Hero />
+      <Divider />
       
       <Categories categories={[
         {
@@ -44,7 +49,8 @@ function App() {
           tags: ["Typescript", "NodeJs", "WhatsApp API"],
           link: "https://github.com/Kagirim/WhatsAppWeave/stargazers",
           starIcon: <StarIcon />,
-          gitIcon: <ForkIcon />
+          gitIcon: <ForkIcon />,
+          linkIcon: <LinkIcon />
         },
         {
           title: "Thaka Secrets",
@@ -52,7 +58,8 @@ function App() {
           tags: ["Django", "JavaScript", "HTML"],
           link: "https://github.com/Kagirim/thaka-secrets",
           starIcon: <StarIcon />,
-          gitIcon: <ForkIcon />
+          gitIcon: <ForkIcon />,
+          linkIcon: <LinkIcon />
         },
         {
           title: "Over Network Dapp",
@@ -60,10 +67,22 @@ function App() {
           tags: ["Move", "Sui", "Blockchain"],
           link: "https://github.com/Kagirim/over-network-nft/stargazers",
           starIcon: <StarIcon />,
-          gitIcon: <ForkIcon />
+          gitIcon: <ForkIcon />,
+          linkIcon: <LinkIcon />
         }
       ]} />
       <Skills />
+      <Blog blogs={[
+        {
+          isFeature: true,
+          title: "Mastering Goal Setting",
+          description: "Unlock the science of goal-setting with insights from Dr. Andrew David Huberman, with evidence-based strategies to navigate your personal and professional growth",
+          tags: ["React", "JavaScript", "HTML"],
+          date: "Mar 10, 2023"
+        }
+      ]}/>
+      <Contact />
+      <Footer Love={ Love } />
     </>
   );
 }
