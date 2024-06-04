@@ -47,7 +47,7 @@ function App() {
           title: "WhatsApp Weave",
           description: "WhatsAppWeave is a powerful Node.js application designed to automate the management of WhatsApp through retrieval and saving data.",
           tags: ["Typescript", "NodeJs", "WhatsApp API"],
-          link: "https://github.com/Kagirim/WhatsAppWeave/stargazers",
+          link: "https://github.com/Kagirim/WhatsAppWeave/",
           starIcon: <StarIcon />,
           gitIcon: <ForkIcon />,
           linkIcon: <LinkIcon />
@@ -65,7 +65,7 @@ function App() {
           title: "Over Network Dapp",
           description: "A move module for a decentralized social media platform. The platform allows users to create and manage accounts, follow other accounts, and post, comment, and like content. Account ownership is handled through NFTs.",
           tags: ["Move", "Sui", "Blockchain"],
-          link: "https://github.com/Kagirim/over-network-nft/stargazers",
+          link: "https://github.com/Kagirim/over-network-nft/",
           starIcon: <StarIcon />,
           gitIcon: <ForkIcon />,
           linkIcon: <LinkIcon />
