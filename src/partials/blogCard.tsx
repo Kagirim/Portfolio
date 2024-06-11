@@ -19,7 +19,7 @@ export default function BlogCard({ blog: { isFeature, title, description, tags, 
     return (
         <article className="pt-8 px-8">
             <blockquote>
-                <h1 className="text-bold text-darkBlue text-xl capitalize">{ title }</h1>
+                <h1 className="text-bold text-darkBlue text-xl capitalize"><a href="https://kagirim.github.io/blog-single.html">{ title }</a></h1>
                 <p className="text-darkBlue">{ description }</p>
                 <span className="text-slate-300 pt-12">{ date }</span>
             </blockquote>

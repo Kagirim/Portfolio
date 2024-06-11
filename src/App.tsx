@@ -2,7 +2,6 @@ import NavBar from "./components/navBar";
 import Hero from "./components/hero";
 import Skills from "./components/skill";
 import Projects from "./components/projects";
-import { ApiIcon } from "./img/apiIcon"
 import { BackendIcon } from "./img/backendIcon"
 import { BlockchainIcon } from "./img/blockchainIcon"
 import { HtmlIcon } from "./img/htmlIcon"
